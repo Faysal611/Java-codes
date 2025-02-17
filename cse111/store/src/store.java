@@ -2,7 +2,6 @@ public class store {
     private String storeName;
     private int storeId;
     private product[] productList = new product[5];
-    private int revenue;
     private int count = 0;
 
     public store(String name, int id) {
